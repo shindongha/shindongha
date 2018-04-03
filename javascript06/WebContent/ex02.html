@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+	// 0 ~ 10 짝수합 구하기
+	window.onload = function(){
+		var divtag = document.getElementById("aprint");
+		var total = 0;
+		for(var a =0; a<11; a++){
+			if(a%2==0){
+				total += a;
+			}
+		}
+		divtag.innerHTML = total;
+	}
+</script>
+</head>
+<body>
+<div id ="aprint">
+</div>
+</body>
+</html>

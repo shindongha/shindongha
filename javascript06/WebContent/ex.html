@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var input = Number(prompt('몇줄의 피라미드를 만들것인지?', '숫자만 입력'));
+	
+	for (var i = 1; i < input; i++) {
+		for (var j = 1; j < input - i; j++) {
+			document.write("&nbsp &nbsp");
+		}
+		for (var j = 1; j <= i * 2 - 1; j++) {
+			document.write("&nbsp*");
+		}
+		document.write("<br>");
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>
